@@ -1,3 +1,3 @@
-function iwd --description "cd to the initial working directory, set at the start of a session"
-    cd "$IWD"
+function iwd --description "Print the initial working directory"
+    echo "$IWD"
 end
